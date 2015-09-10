@@ -7,7 +7,7 @@
   <p>You have <strong>{{ posts.length }}</strong> posts!</p>
   <p><a href="/post/new">Create a Post</a></p>
   <ul id="posts">
-    {% for post in PostDB %}
+    {% for post in posts %}
       <li>
         <h2>{{ post.title }} </h2>
         {{ post.content }}
